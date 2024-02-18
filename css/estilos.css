@@ -39,6 +39,7 @@ body {
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
+    
 }
 
 
@@ -676,3 +677,37 @@ body {
         */
     }
 }
+
+/* Tipografía general */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Contenedor principal */
+#contenedor {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: Impact;
+    margin-bottom: 10px;
+}
+
