@@ -63,46 +63,65 @@
         </section>
     </header>
 
-    
-    <header>
-        <h1>Lección 1: Marketing Digital</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Introducción al Marketing Digital</h2>
-            <p class="bold">El marketing digital es un conjunto de estrategias y técnicas utilizadas para promocionar productos o servicios a través de medios digitales.</p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-            </div>
+    <div id="contenedor">
+        <div id="leccion1" class="leccion1">
+        <h2 class="texto-centrado">Lección 2: Marketing digital - Nivel medio</h2>
+        <section id="introduccion">
+            <h3>Introducción</h3>
+            <p class="texto-justificado">En esta lección, profundizaremos en el marketing digital a un nivel más intermedio. Abordaremos temas como la definición de objetivos, la creación de un buyer persona, la selección de canales, la creación de contenido y la medición de resultados.</p>
         </section>
-        <section>
-            <h2>Principios Básicos</h2>
-            <p class="bold">Los principios básicos del marketing digital incluyen la segmentación del mercado, la definición de objetivos, el análisis de la competencia y la identificación del público objetivo.</p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-            </div>
+        <section id="objetivos">
+            <h3>Definición de objetivos</h3>
+            <ul class="texto-justificado">
+                <li>¿Qué quieres lograr con tu estrategia de marketing digital?</li>
+                <li>¿Quieres aumentar las ventas, generar leads, mejorar la visibilidad de tu marca o algo más?</li>
+            </ul>
         </section>
-        <section>
-            <h2>Importancia del Marketing Digital</h2>
-            <p class="bold">En la era digital actual, el marketing digital es fundamental para llegar a los clientes potenciales, aumentar la visibilidad de la marca y generar ventas.</p>
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-            </div>
+        <section id="buyer-persona">
+            <h3>Creación de un buyer persona</h3>
+            <ul class="texto-justificado">
+                <li>¿A quién quieres llegar con tu marketing?</li>
+                <li>¿Cuáles son sus necesidades, deseos y comportamientos?</li>
+            </ul>
         </section>
-    </main>
-        
-    
- 
+        <section id="canales">
+            <h3>Selección de canales</h3>
+            <ul class="texto-justificado">
+                <li>¿En qué plataformas online deberías estar presente?</li>
+                <li>¿Cuáles son los canales más adecuados para tu público objetivo y tus objetivos?</li>
+            </ul>
+        </section>
+        <section id="contenido">
+            <h3>Creación de contenido</h3>
+            <ul class="texto-justificado">
+                <li>¿Qué tipo de contenido debes crear para atraer a tu público objetivo?</li>
+                <li>¿Cómo puedes crear contenido de alta calidad que sea relevante para tu público objetivo y que les ayude a resolver sus problemas?</li>
+            </ul>
+        </section>
+        <section id="medicion">
+            <h3>Medición de resultados</h3>
+            <ul class="texto-justificado">
+                <li>¿Cómo puedes medir el éxito de tu estrategia de marketing digital?</li>
+                <li>¿Qué herramientas puedes utilizar para medir el tráfico de tu sitio web, las conversiones y otros datos importantes?</li>
+            </ul>
+        </section>
+        <section id="recursos">
+            <h3>Recursos adicionales</h3>
+            <ul class="texto-justificado">
+                <li><a href="https://marketingdigital.google.com/intl/es_419/about/">Sitio web de Google sobre marketing digital</a></li>
+                <li><a href="https://blog.hubspot.es/">Blog de HubSpot sobre marketing digital</a></li>
+                <li><a href="https://learndigital.withgoogle.com/digitalgarage/course/fundamentals-of-digital-marketing">Curso online gratuito de Google sobre marketing digital</a></li>
+            </ul>
+        </section>
+    </div>
 
             </div>
         </section>
         <div class="contenedor">
             <button id="siguienteBtn">Siguiente leccion</button>
            
-
           </div>
-
-
+     
           <div id="contenedor">
             <div id="leccion2" class="leccion">
                 <h2 class="texto-centrado">Lección 2: Marketing digital - Nivel medio</h2>
@@ -164,7 +183,7 @@
             botonSiguiente.addEventListener('click', () => {
               if (indiceLeccionActual < lecciones.length) {
                 lecciones.forEach((leccion) => {
-                  leccion.style.height = "0"; // Oculta todas las lecciones
+                  leccion.style.height = "-1"; // Oculta todas las lecciones
                 });
                 lecciones[indiceLeccionActual].style.height = "auto"; // Muestra la siguiente lección
                 indiceLeccionActual++;

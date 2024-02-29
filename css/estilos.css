@@ -105,14 +105,16 @@ body {
 }
 
 .hero__title {
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-bottom: -30px;
 }
 
-.hero__paragraph {
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 1;
+.hero__paragrap {
+    margin-bottom: 2px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+
    
 }
 
